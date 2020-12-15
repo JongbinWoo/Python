@@ -22,6 +22,7 @@ list1 = ['1', '100', '1000']
 list2 = list(map(int, list1))
 
 Iterable의 모든 멤버에 int함수를 적용하고 list로 변환
+-map(int, list1) -> map object(Iterator) 
 
 * Iterable객체 - 반복가능한 객체 (ex. list, dict, range, tuple ...)
 ** Iterator 객체 - 값을 차례대로 꺼낼 수 있는 객체
